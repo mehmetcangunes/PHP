@@ -1,3 +1,4 @@
+<?php
 isset  = Genellikle kontrol için kullanılır .Örneğin post kontrolü .  Kısaca kullanımı şu şekildedir ; 
 
 if(isset($_POST['username']))
@@ -58,3 +59,4 @@ $username = $_POST['username'];
 $cıktı = strpos($username, "."); //burada öncelikle değişken adımızı girdik o değişken girdisinin içerisiinde araması için , dan sonra ise ne arayacağını girdik . strlen de olduğu gibi burada da mb_strpos kullanmanız önemlidir . 
 
 echo $cıktı ;
+<?
