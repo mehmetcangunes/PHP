@@ -1,5 +1,6 @@
 <?php
-isset  = Genellikle kontrol için kullanılır .Örneğin post kontrolü .  Kısaca kullanımı şu şekildedir ; 
+isset  = Orada bir değer alıp almadığına bakar .Mesela aşağıdaki örnekte username gelen değer var mı yok mu kontrolü yapmıştır.
+  Kısaca kullanımı şu şekildedir ; 
 
 if(isset($_POST['username']))
 	echo "post var";
@@ -13,7 +14,7 @@ else
 
 empty =  Boşlukları göstermek için kullanılır . Örneğin username | password girişi . Kısaca şu şekilde kullanılır ;
 
-if(empty($_POST['username'])) //username girilmiş mi onun kontrolünü yapıyor .
+if(empty($_POST['username'])) //username de boşluk var mı yok mu onun kontrolünü yapıyor .
 echo "Boşluk var";
 else
 echo "Boşluk yok"
