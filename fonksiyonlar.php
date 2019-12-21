@@ -53,7 +53,7 @@ else
 
 
 
-strpos = 
+strpos = Girilen girdideki " " içinde belirlediğimiz kelimenin kaçıncı sırada olduğunu ekrana basar.
 $username = $_POST['username'];
 
 $cıktı = strpos($username, "."); //burada öncelikle değişken adımızı girdik o değişken girdisinin içerisiinde araması için , dan sonra ise ne arayacağını girdik . strlen de olduğu gibi burada da mb_strpos kullanmanız önemlidir . 
