@@ -26,6 +26,19 @@ for($i = 0 ; $i < 10 ; $i ++){
 	echo "Selam<br>";
 }
 
-Do while döngüsü : 
+Do while döngüsü : Herhangi bir koşula bakılmaksızın do küme parantezi içindeki kod çalışacaktır . 
+	do while öngüsünde öncelikle yapılması gereken işlem yapılır daha sonrasında koşula bakılır . while döngüsünden farkı budur.
+		
+Örnek : 		
 
-	?>
+$sayi = 1; //Değişkenimizi oluşturuyoruz . 
+
+do{
+	echo "Php ye selam <br>"; // Koşula bakılmaksızın ilk do {} içindeki kodlar çalışacaktır.Döngü sağlanmasa da ekrana bu basılacaktır. 
+	$sayi ++;
+}while ($sayi <= 10) ; // Daha sonra ise while döngüsüne geçmek için koşula bakılıyor . 
+	echo "Döngü bitti"; // while döngüsü tamamlanmasa da bu mesaj ekrana basılır . 
+
+
+
+?>
