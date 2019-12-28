@@ -3,10 +3,11 @@ Döngülerde dikkat etmemiz gereken şey koşulun gerçekleşmesinde bir sonun b
 döndüreceği için çökmelere neden olacaktır. 
 
 while döngüsü : 
-while döngüsünün şekli şu şekildedir : 
+
 while ( $koşul ) {
 koşul doğru ise yapılacaklar
 }
+
 Örnek : 
 
 $sayi = 0 ;
@@ -15,4 +16,16 @@ while ($sayi <= 10) { //$sayi değişkeni 10 dan küçükse ekrana  "php den sel
 	echo "$sayi php den selam<br>";
 }
 
-?>
+
+for döngüsü : 
+
+for( $değişken ; dönme şartı  ; dönüş işlemi) // dönmeşartı = if konutudur  .  Dönme işleminde her zaman birer birer arttırmak zorunda değilsiniz. bu işlemi değiştirip üçer üçer veya beşer beşer saydırabilirsiniz.
+
+	Örnek : 
+for($i = 0 ; $i < 10 ; $i ++){
+	echo "Selam<br>";
+}
+
+Do while döngüsü : 
+
+	?>
