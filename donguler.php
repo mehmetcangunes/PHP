@@ -40,5 +40,24 @@ do{
 	echo "Döngü bitti"; // while döngüsü tamamlanmasa da bu mesaj ekrana basılır . 
 
 
+foreach döngüsü : 
+dizi(array) veya obje(object) içindeki verileri otomatik olarak listeleme işlemi yapmaktadır.
+	
+array kullanımı : 	
+$bilgisayarlar = array("Lenovo", "MSI","COMPUTER"); //Dizi tanımlıyoruz .
+echo $bilgisayarlar[1]; //Hangi elemanı yazdırmak istiyorsanız onun index numarasını giriyorsunuz . Her programlama dilinde olduğu gibi burda da saymaya 0'dan başlıyoruz. ben 1 seçtim ekrana MSI basacaktır. 
+
+foreach kullanımı : 
+foreach ($bilgisayarlar as $yazdir){  //  $bilgisayar yazarak array değeri verdiğimiz değişkeni yazdık ve onu da $yazdir 'a atadık .
+	echo $yazdir ."<br>"; // Burada ise yukarıda oluşturduğumuz $yazdir degiskenimizi ekrana basıyoruz . Ve ekranda <br> etiketi açtığımız için alt alta Lenovo MSI COMPUTER basılıyor. 
+}
+
+
+foreach ($bilgisayarlar as $index => $yazdir) { //burada ise $yazdir degerini önünde index numaraları olarak yazdırdık . 
+
+	echo $index ." - ".$yazdir ."<br>"; // Burada ise yukarıda oluşturduğumuz $yazdir degiskenimizi ekrana basıyoruz . Ve ekranda <br> etiketi açtığımız için alt alta önlerinde index numaraları olmuş şekilde Lenovo MSI COMPUTER basılıyor. 
+}
+
+
 
 ?>
