@@ -8,7 +8,8 @@ else
 	echo "post yok "; 
 
 
-
+highlight_file(__FILE__); -->yazdığınız kodun webde gözükmesini sağlar yani şu şekilde eğer bunu kodunuza eklerseniz
+	<?php  ve içerisindekiler ?> görünecek.
 
 
 
